@@ -1,0 +1,268 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Andrew Cheng} \\ \vspace{1pt}
+    \small 516-984-2651 $|$ \href{mailto:andrew.cheng.2@stonybrook.edu}{\underline{andrew.cheng.2@stonybrook.edu}} $|$ 
+    \href{https://www.linkedin.com/in/andrew-cheng-84a6392b5/}{\underline{linkedin.com/in/andrew-cheng-84a6392b5}} $|$
+%    \href{https://github.com/...}{\underline{github.com/jake}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Stony Brook University}{Stony Brook, NY}
+      {Bachelor of Science in Computer Science}{Aug. 2024 -- May 2028}
+    \resumeSubheading
+      {East Meadow High School}{East Meadow, NY}
+      {High School Diploma}{Sept. 2020 -- June 2024}
+
+    \resumeItemListStart
+    \resumeItem{Salutatorian (Rank 2/390)}   
+      \resumeItem{National Merit Finalist, AP Scholar with Distinction, American Mathematics Competition Award}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {STEM Instructor}{July 2023 -- Aug. 2024}
+      {Mathnasium}{Levittown, NY}
+      \resumeItemListStart
+        \resumeItem{Tutored 20+ weekly students in Geometry, Algebra 1-2, Pre-Calculus, AP Calculus, AP Chemistry, Statistics, \& Computer Science.
+}
+        \resumeItem{Designed summer programs preparing students for the AMC/AIME, and developing beginner programming skills in Python.
+        }
+        \resumeItem{Developed a system to transfer contact information of 500+ parents from scanned documents into Google Sheets and import to Google Contacts.
+        }
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {IMC Prosperity Competitor}{Apr. 2024}
+      {IMC Trading}{Remote}
+      \resumeItemListStart
+        \resumeItem{Competed in IMC's Prosperity Trading Challenge, a 15-day global competition with a \$50,000 prize pool, with simulated trading scenarios across five rounds.
+        }
+        \resumeItem{Collaborated with a team to develop Python trading algorithms, leveraging analytical skills.
+        }
+        \resumeItem{Applied probability distributions, game theory, and calculus to optimize strategy in manual trading rounds.
+        }
+        \resumeItem{
+        Placed top 500 placement internationally out of 13,000 participants including top university students and industry professionals from firms like Citadel and D.E. Shaw.
+        }
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Python Program Director}{Jan. 2024 - Apr. 2024}
+      {East Meadow Public Library}{East Meadow, NY}
+      \resumeItemListStart
+        \resumeItem{Proposed and headed weekly introductory programming program at EM Public Library for middle school students.
+        }
+        \resumeItem{Created a comprehensive curriculum tailored for beginners, covering fundamental programming concepts in Python/NumPy.
+        }
+        \resumeItem{Structured a series of interactive sessions that included hands-on coding exercises, projects, and assessments
+        }
+        \resumeItem{Managed program logistics, such as scheduling, venue setup, and participant enrollment.
+        }
+        \resumeItem{Analyzed participant progress and outcomes, adapting the curriculum to better meet learners' needs.
+        }
+        \resumeItem{Fostered relationship with local schools to promote the program to more students in the community.
+        }
+      \resumeItemListEnd
+  
+    \resumeSubheading
+    {President, Captain}{Oct. 2021 - Jun 2024}
+    {Mu Alpha Theta Math Honor Society}{East Meadow, NY}
+    \resumeItemListStart
+        \resumeItem{Led an organization with 100+ members dedicated to learning and using math to benefit the community in three sectors: Peer Tutoring, Community Connections, and Math Team.
+        }
+        \resumeItem{
+            Created free monthly SAT Bootcamp that leveraged practice test data to tailor a curriculum for 40+ students.
+        }
+        \resumeItem{
+        Facilitated district-wide STEM Night by organizing 60+ volunteers into 30+ activities promoting K-6 STEM engagement including creating magnetic slime and programming Ozobots.
+        }
+        \resumeItem{
+        First individual top 10 at the Nassau Math Tournament. Led team to top 10 in Nassau Math Tournament, top 5 in NCIML, and brought first 5 members to compete at ARML/NYSML as part of Nassau County All Star Team (Top 50 in county).
+        }
+        
+        \resumeItem{
+        Used Overleaf and LaTex to create handouts that were correlated with a 15\% increase in average scores on the AMC.
+        }
+    \resumeItemListEnd
+
+
+
+    
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\begin{comment}
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+            \resumeItem{Visualized GitHub data to show collaboration}
+            \resumeItem{Used Celery and Redis for asynchronous tasks}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+          \resumeItemListStart
+            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\end{comment}
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills/Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, JavaScript, HTML/CSS, Java, Python, LaTex  } \\
+%     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, VS Code, Visual Studio, Netlify, Overleaf} \\
+%     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    \textbf{Interests}{: Competitive Programming, Contest Math, Running, Poker, Anime, Music, Teamfight Tactics}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+
+\end{document}
